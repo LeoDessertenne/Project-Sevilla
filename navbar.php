@@ -45,7 +45,7 @@ if ($_SESSION['langue'] == 'fr') {
    $urbanisme = "Urbanismo";
 }
 
-$path = "https://perso-etudiant.u-pem.fr/~leo.dessertenne/Projet-Seville";
+$path = "https://perso-etudiant.u-pem.fr/~leo.dessertenne/Project-Seville";
 
 echo "<div id=\"mySidenav\" class=\"sidenav\">
       <a id=\"closeBtn\" class=\"close\">×</a>

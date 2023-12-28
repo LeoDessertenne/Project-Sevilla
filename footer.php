@@ -1,7 +1,7 @@
 <?php
 include "connexion.inc.php";
 
-$path = "https://perso-etudiant.u-pem.fr/~leo.dessertenne/Project-Seville";
+$path = "https://perso-etudiant.u-pem.fr/~leo.dessertenne/Project-Sevilla";
 
 echo "
         <footer>

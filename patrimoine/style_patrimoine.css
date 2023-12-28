@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
+
+.container {
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 71.25rem;
+    width: 100%;
+}
+
+@supports (display: grid) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .grid>[class*=column-] {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    @media (min-width: 62rem) {
+
+        .column-md-2 {
+            grid-column-start: span 2;
+            grid-column-end: span 2;
+        }
+
+        .column-md-4 {
+            grid-column-start: span 4;
+            grid-column-end: span 4;
+        }
+
+        .column-md-10 {
+            grid-column-start: span 10;
+            grid-column-end: span 10;
+        }
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1.5rem 0 0;
+}
+
+
+nav {
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li {
+    font-size: 1.25rem;
+}
+
+nav li:nth-child(2) {
+    margin: 0;
+}
+
+.gallery {
+    padding: 0 0 4rem 0;
+}
+
+.img-container {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.286);
+}
+
+.img-container:hover .img-content-hover {
+    display: block;
+}
+
+
+img {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.img-content-hover {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    display: none;
+    padding: 1rem;
+    background: #fff;
+    font-weight: 400;
+    margin-top: 1.25rem;
+    margin-left: -2rem;
+}
+
+@supports (display: grid) {
+    .gallery .grid {
+        grid-gap: 1rem;
+    }
+}
+
+@media (min-width: 62rem) {
+    nav ul {
+        justify-content: flex-end;
+    }
+}
+
+#logo {
+    margin: 30px 0px;
+    color: #f7af3e;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: "Barlow";
+}
+  
+#highlight {
+    color: #e83f43;
+    font-family: "Barlow";
+    font-size: 1.5rem;
+}

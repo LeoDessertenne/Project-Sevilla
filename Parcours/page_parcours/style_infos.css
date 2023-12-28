@@ -1,0 +1,25 @@
+
+.img_infos {
+    max-width: 20%;
+}
+
+.trajet {
+    background-color: #f7af3e;
+    font-family: "Dyno";
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 30px;
+    color: white;
+}
+
+.infos {
+    background-color: #b94503;
+    color: white;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .img_infos {
+        max-width: 30%;
+    }
+}

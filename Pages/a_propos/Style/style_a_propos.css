@@ -1,0 +1,217 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #333333;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+
+}
+
+.all .gauche {
+  text-align: end;
+}
+
+h2 {
+  color: #f7af3e;
+  font-size: 45px;
+}
+
+.all section {
+  margin-bottom: 50px;
+}
+
+.all .droite p {
+  font-size: 25px;
+  color: #fff;
+  margin-right: 50%;
+}
+
+.all .gauche p {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 50%;
+}
+
+.membres {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.membre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  width: 300px;
+  margin: 10px;
+}
+
+.membre .photo-membre {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+.membre .role {
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.membre .nom-membre {
+  padding: 5px 0;
+  font-size: 30px;
+  font-family: "Dyno";
+}
+
+.flex-contact {
+  display: flex;
+}
+
+.flex-contact img {
+  max-width: 50px;
+  height: auto;
+  padding: 0 5px;
+  filter: invert(100);
+}
+
+
+
+.content {
+  width: 500px;
+  max-width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"],
+.contactform textarea {
+  display: block;
+  width: 100%;
+  margin: 0px auto 10px;
+  padding: 15px 15px 15px 35px;
+  border: 0;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid #1c6ec3;
+  color: #1c6ec3;
+  outline: none;
+}
+
+.iconblock {
+  position: relative;
+}
+
+:invalid+.icon-validation::before {
+  display: block;
+  content: '\f06a';
+  font-family: fontAwesome;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 1.2em;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+:valid+.icon-validation::before {
+  display: block;
+  content: '\f058';
+  font-family: fontAwesome;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 1.2em;
+  color: rgba(19, 209, 19, 0.5);
+}
+
+.contactform textarea {
+  min-height: 100px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.contactform textarea:focus {
+  outline: none;
+}
+
+.read-more {
+  padding: 6px 15px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background: grey;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.read-more:hover {
+  background: #f7af3e;
+}
+
+.contactform input:-moz-placeholder {
+  color: #84b3d5;
+}
+
+.contactform input:-ms-input-placeholder {
+  color: #84b3d5;
+}
+
+.contactform input::-webkit-input-placeholder {
+  color: #84b3d5;
+}
+
+.contactform textarea:-moz-placeholder {
+  color: #84b3d5;
+}
+
+.contactform textarea:-ms-input-placeholder {
+  color: #84b3d5;
+}
+
+.contactform textarea::-webkit-input-placeholder {
+  color: #84b3d5;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 36px;
+  }
+
+  .all .droite p,
+  .all .gauche p {
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .all .gauche {
+    text-align: center;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  .all .droite p,
+  .all .gauche p {
+    font-size: 22px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 769px) {
+  /* Add your specific styles for larger screens here */
+}

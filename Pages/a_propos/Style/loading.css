@@ -1,0 +1,15 @@
+.slide-left {
+    animation: slide-left 1s ease forwards;
+    position: relative;
+    
+}
+
+  
+@keyframes slide-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

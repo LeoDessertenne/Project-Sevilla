@@ -1,0 +1,47 @@
+.img-map {
+    width: 100%;
+    height: auto;
+    min-width: 650px;
+    max-width: 100%;
+}
+
+.cont-carte {
+    margin-left: 60px;
+}
+
+.big-cont-map {
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: top;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .big-cont-map {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-map {
+        min-width: 100px;
+        margin-bottom: 50px;
+    }
+
+    .cont-carte {
+        margin-left: 0;
+    }
+
+
+    
+}
+
+.container_maptxt {
+    margin-right: 60px;
+    margin-left: 20px;
+    color: white;
+    text-align: justify;
+    font-size: 21px;
+}
+

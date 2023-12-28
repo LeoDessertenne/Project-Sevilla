@@ -1,0 +1,32 @@
+/* Style pour la section centrée */
+.centered-section {
+  margin: 20px 5%;
+
+}
+
+/* Style pour les titres des sections */
+.centered-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #f7af3e;
+}
+
+
+/* Style pour la liste d'images */
+.centered-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.centered-section ul li {
+  margin-bottom: 5px;
+}
+
+.centered-section ul li a {
+  color: #fff;
+  font-size: 22px;
+}

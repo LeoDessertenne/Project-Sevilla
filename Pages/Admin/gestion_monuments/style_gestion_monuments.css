@@ -1,0 +1,141 @@
+
+.img_infos {
+    max-width: 20%;
+}
+
+.trajet {
+    background-color: #f7af3e;
+    font-family: "Dyno";
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 30px;
+    color: white;
+}
+
+.infos {
+    background-color: #b94503;
+    color: white;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .img_infos {
+        max-width: 30%;
+    }
+}
+
+section {
+    background-color: rgb(238, 238, 238);
+    width: auto;
+    margin: 30px 0px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section .titre_parcours {
+    font-family: "Dyno";
+    font-weight: bold;
+    font-size: 2.5vw;
+    padding: 10px 0;
+}
+
+
+
+.container_contenu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.container_contenu .duree {
+    padding: 10px;
+    font-family: "Dyno";
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.container_contenu .description {
+    display: inline-block;
+    margin: 10px;
+    font-size: 17px;
+}
+
+
+#img_triana {
+    max-width: 25%;
+    border-radius: 10px;
+}
+
+#img_elporvenir {
+    max-width: 25%;
+    border-radius: 10px;
+}
+
+#img_elcentro {
+    max-width: 25%;
+    border-radius: 10px;
+}
+
+.cont-btnPlus {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.infos-plus {
+    color: #f7af3e;
+    background-color: #333333;
+    border: 1px #f7af3e solid;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.special {
+    display: None;
+}
+
+@media screen and (max-width: 1000px) {
+    .container_contenu {
+        display: block;
+    }
+
+
+    #img_triana {
+        max-width: 70%;
+    }
+
+    #img_elporvenir {
+        max-width: 70%;
+    }
+
+    #img_elcentro {
+        max-width: 70%;
+    }
+
+    section .titre_parcours {
+        font-size: 5vh;
+    }
+
+    .container_contenu .duree {
+        font-size: 4vh;
+    }
+
+    .Parcours_container * {
+        text-align: center;
+    }
+
+    section {
+        margin: 5%;
+    }
+
+
+}

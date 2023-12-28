@@ -1,0 +1,131 @@
+.tableau {
+    background-color: #303030;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+thead {
+    background-color: #527DFF;
+    color: white;
+}
+
+.modifier {
+    background-color: #58B368;
+    padding: 10px;
+}
+
+.modifier:hover {
+    background-color: #4CA157;
+}
+
+.image-link {
+    width: 40%;
+}
+
+.supprimer {
+    background-color: #F85353;
+    padding: 10px;
+}
+
+.supprimer:hover {
+    background-color: #d04949;
+}
+
+
+table,
+th,
+td {
+    border: none;
+}
+
+td {
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+
+td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+thead {
+    display: none;
+}
+
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.message {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    margin-left: 25px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.litcont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnretour {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btnretour span {
+    margin-right: 5px;
+}
+
+.btnretour:hover {
+    background-color: #434343;
+}

@@ -1,0 +1,92 @@
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: -250px;
+  background-color: rgb(29, 29, 29);
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f7af3e;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .close {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidenav a:hover {
+  color: #ea5c0d;
+}
+
+.sidenav .close:hover {
+  color: red;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidenav.active {
+  left: 0;
+}
+
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.burger-icon {
+  position: absolute;
+  background-color: rgb(29, 29, 29);
+  margin: 5px 5px;
+  padding: 5px 0;
+}
+
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 10px;
+}
+
+@media only screen and (min-width: 930px) {
+  .sidenav {
+    display: none;
+  }
+
+  .burger-icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .navbar {
+    display: none;
+  }
+
+  .navfixeg {
+    display: none;
+  }
+
+  .langue {
+    top: 5px;
+    right: 5px;
+
+  }
+}

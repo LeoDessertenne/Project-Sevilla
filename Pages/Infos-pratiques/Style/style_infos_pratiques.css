@@ -1,0 +1,54 @@
+.title {
+    color: #f7af3e;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.content-infos-pratiques {
+    margin: 0 5%;
+}
+
+.info {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.temps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.saisons {
+    background-color: #ffb300;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Media queries for responsiveness */
+
+/* Small screens */
+@media (max-width: 576px) {
+    .title {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .content-infos-pratiques {
+        margin: 0;
+    }
+
+    .saisons {
+        width: 100%;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+    .title {
+        font-size: 36px;
+        margin: 15px 0;
+    }
+}

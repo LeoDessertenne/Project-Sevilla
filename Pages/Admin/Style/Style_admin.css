@@ -1,0 +1,54 @@
+form {
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+#button-deco {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: 5px #f7af3e solid;
+    color: #f7af3e;
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+}
+
+#button-deco:hover {
+    text-decoration: underline;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.container-box-admin {
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
+    flex-wrap: wrap;
+
+}
+
+.box-admin {
+    width: 200px;
+    height: 200px;
+    background-color: #FF7A00;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-box-admin a {
+    text-decoration: none;
+}
+
+.box-admin:hover {
+    background-color: #f7af3e;
+}

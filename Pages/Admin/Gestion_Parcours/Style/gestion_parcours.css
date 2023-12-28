@@ -1,0 +1,57 @@
+.ParcoursCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.retour {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    background-color: #bb4e11;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.Parcours_container {
+    margin: 0;
+}
+
+.btn-infop {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.btn-modifier {
+    background-color: #58B368;
+    padding: 10px;
+    color: white;
+    border: solid 0;
+    border-radius: 10px;
+}
+
+.btn-supprimer {
+    background-color: #F85353;
+    padding: 10px;
+    color: white;
+    border: solid 0;
+    border-radius: 10px;
+}
+
+.btn-modifier:hover {
+    background-color: #4CA157;
+}
+
+
+.btn-supprimer:hover {
+    background-color: #d04949;
+}
